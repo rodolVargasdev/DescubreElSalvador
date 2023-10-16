@@ -94,42 +94,37 @@ body {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
     background-color: #101C3B;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    color: white;
+    text-align: center;
 }
 
-.footer-row {
+.row1 {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.line-left, .line-right {
+    width: 500px;
+    height: 10px;
+    background-color: white;
 }
 
 .social-icons {
+    margin-top: 5px;
     display: flex;
-    gap: 50px;
+    align-items: center;
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
 }
 
-.line {
-    border: 8px solid white;
-    width: 30%;
-    height: 0;
-    flex-grow: 1;
-}
-
-.footer-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: white;
+.row2, .row3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin: 10px 0;
 }
