@@ -93,23 +93,43 @@ body {
     background-color: #739739;
 }
 
-.footer {
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #101C3B;
     height: 200px;
-    background-color: #101d3c;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+}
+
+.footer-row {
+    display: flex;
     align-items: center;
-    padding: 0 120px;
+    justify-content: center;
 }
 
-.footer-column {
-    flex: 1;
-    text-align: center;
-    padding: 20px;
+.social-icons {
+    display: flex;
+    gap: 50px;
 }
 
-.footer-divider {
-    width: 2px;
-    height: 80%;
-    background-color: #101d3c;
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.line {
+    border: 8px solid white;
+    width: 30%;
+    height: 0;
+    flex-grow: 1;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
 }
