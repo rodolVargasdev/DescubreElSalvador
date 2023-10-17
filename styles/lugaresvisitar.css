@@ -1,0 +1,41 @@
+.imgTazumal{
+    width: 100%;
+    max-height: 550px;
+}
+
+.containerRutaArq{
+    position: relative;
+}
+
+.imgTazumal:hover {
+    filter: grayscale(50%);
+}
+
+.verMasButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.infoTazumal {
+    position: absolute;
+    background: #101C3B;
+    color: white;
+    padding: 10px;
+    top: 220px;
+    right: 100px;
+    border-radius: 20px;
+    border-top: 5px solid red; 
+    border-right: 5px solid blue; 
+    border-bottom: 5px solid green;
+    border-left: 5px solid yellow; 
+    width: 50%;
+    max-height: 100%;
+}
