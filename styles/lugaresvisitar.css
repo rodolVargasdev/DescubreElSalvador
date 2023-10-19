@@ -1,10 +1,14 @@
 .imgTazumal{
     width: 100%;
     max-height: 550px;
+    object-fit: cover;
 }
 
 .containerRutaArq{
     position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .imgTazumal:hover {
@@ -29,13 +33,88 @@
     background: #101C3B;
     color: white;
     padding: 10px;
-    top: 220px;
+    top: 170px;
     right: 100px;
     border-radius: 20px;
-    border-top: 5px solid red; 
-    border-right: 5px solid blue; 
-    border-bottom: 5px solid green;
-    border-left: 5px solid yellow; 
-    width: 50%;
+    border-top: 15px solid #739739; 
+    border-right: 10px solid #E97023; 
+    border-bottom: 15px solid #EDC9AC;
+    border-left: 10px solid #10C4C2; 
+    width: 35%;
     max-height: 100%;
+}
+
+
+.imgSunsetPark{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.containerSurfCity{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.imgSunsetPark:hover {
+    filter: grayscale(50%);
+}
+
+.infoSurfCity {
+    position: absolute;
+    background: #101C3B;
+    color: white;
+    padding: 10px;
+    top: 125px;
+    right: 100px;
+    border-radius: 20px;
+    border-top: 15px solid #739739; 
+    border-right: 10px solid #E97023; 
+    border-bottom: 15px solid #EDC9AC;
+    border-left: 10px solid #10C4C2; 
+    width: 35%;
+    max-height: 100%;
+}
+
+.imgCentroHistorico{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.containerCentroHistorico{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.imgCentroHistorico:hover {
+    filter: grayscale(50%);
+}
+
+.infoCentroHistorico {
+    position: absolute;
+    background: #101C3B;
+    color: white;
+    padding: 10px;
+    top: 115px;
+    right: 100px;
+    border-radius: 20px;
+    border-top: 15px solid #739739; 
+    border-right: 10px solid #E97023; 
+    border-bottom: 15px solid #EDC9AC;
+    border-left: 10px solid #10C4C2; 
+    width: 35%;
+    max-height: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
 }
