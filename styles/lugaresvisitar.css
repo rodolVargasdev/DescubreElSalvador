@@ -15,19 +15,6 @@
     filter: grayscale(50%);
 }
 
-.verMasButton {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 0;
-    cursor: pointer;
-}
-
 .infoTazumal {
     position: absolute;
     background: #101C3B;
@@ -117,4 +104,22 @@ h1{
 
 p{
     font-family: sans-serif;
+}
+
+.verMasButton {
+    background-color: #B4BA7B;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 15px;
+    margin-top: 100px;
+
+    &:hover {
+        background-color: #ff7557;
+    }
 }
