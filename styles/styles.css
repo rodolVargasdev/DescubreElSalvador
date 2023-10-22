@@ -8,6 +8,7 @@ body {
     width: 100%;
 }
 .container__nav {
+    /* esto lo agregue, para que en lugares que visitar no me diera error */z-index: 9999;
     position: fixed;
     width: 100%;
     height: 70px;
