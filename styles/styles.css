@@ -490,7 +490,7 @@ footer {
     }
     .nav__items li:first-child
     {
-        border-top: 1px solid rgb(231, 231, 231)
+        border-top: 1px solid rgb(231, 231, 231);
         margin-top: 10px;
     }
     .nav__items li a{
