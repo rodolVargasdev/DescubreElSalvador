@@ -301,7 +301,7 @@ a{
 @media (max-width: 1039px) {
   .contactoSection{
     width: 100%;
-    height: 500px;
+    height: 400px;
     }
     .contactenos {
       flex-direction: column;
@@ -322,14 +322,14 @@ a{
     }
     
     .item2,.item3,.item5,.item6{
-      margin-top: 40px;
-      margin-bottom: 40px;
+      margin-top: 15px;
+      margin-bottom: 15px;
   }
 
   @media (max-width: 436px) {
     .contactoSection{
       width: 100%;
-      height: 500px;
+      height: 300px;
       }
     .contactenos {
       flex-direction: column;
