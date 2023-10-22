@@ -1,3 +1,7 @@
+body{
+  width: 100%;
+}
+
 
 .seccion_introduccion {
   display: flex;
@@ -158,9 +162,16 @@
     margin-left: 0;
     margin-top: 20px;
   }
+
+  .contactoSection{
+    width: 100%;
+    }
 }
 
 /*Aqui empieza la seccion de formularios*/
+.contactoSection{
+width: 100%;
+}
 .titulo-contactenos{
   font-size: 32px;
   font-family: 'Roboto', sans-serif;
