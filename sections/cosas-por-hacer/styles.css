@@ -56,7 +56,7 @@ main{
     margin-left: 10px;
     /* background-color: #E97023; */
     background-size: cover;
-    background-image: url("../media/img/logo.png");
+    background-image: url("../../media/img/logo.png");
     
 }
 
@@ -93,7 +93,7 @@ main{
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-image: url("../media/img/mainImg.png");
+    background-image: url("../../media/img/cosasBackground.png");
 }
 
 
@@ -121,81 +121,78 @@ main{
     font-size: 3.7rem;
 }
 
-
-.section__destino{
+/* SECTION MAPA */
+.mapa_title{
     width: 100%;
-    height: 500px;  
-    display: flex;  
-    align-items: center;
-    margin: 100px 0;
-}
-
-.destino__contenido {
-    width: 60%;
-    display: grid;
-    justify-content: flex-end;
-}
-
-.destino__dec{
-    width: 555px;
-    height: 480px;
-    display: flex;  
-    align-items: center;
-    justify-content: center;
-    background-size: cover;  
-    background-image: url("../media/img/indexRec.png");
-}
-
-.textoContainer{
-    width: 92%;
-    height: 90%;
-    background-color: #101C3B;
-    color: #fff;
-    display: flex; 
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: left;
-    border-radius: 15px;
-
-}
-.textoContainer h3{
-    font-size: 2.0em;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 40px 0 0 30px;
-}
-.textoContainer p {
-
-    font-size: 1em;
-    letter-spacing: 1px;
-    font-weight: 300;
-    padding: 10px 70px 0 30px;
-}
-.textoContainer button{
-    font-size: 1em;
-    letter-spacing: 1px;
-    width: auto;
     height: auto;
-    padding: 10px 30px;
-    border-radius: 10px;
-    background-color: #E97023;
-    font-weight:500;
-    color: #fff;
+    display: grid;
+    margin-bottom: 10px;
+}
+.mapa_title h4{
+    width: 100%;
+    font-size: 1.7em;
+    margin: 0;
+}
+.mapa_title div{
+    width: 5%;
+    height: 4px;
+    background-color: #000;
+}
+
+.section__mapa{
+    width: 100%;
+    margin: 100px 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.section__mapa_container
+{
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 45%;
+    justify-content: center;
+}
+.first_map{
+    display: flex;
+    justify-content: center;
+}
+.first_map_svg{
+    width: 90%;
+    display: grid;
+}
+.dep{
+    transform: scale(1);
+    transition: transform 1s;
+    transition: fill 0.5s;
+}
+.dep:hover{
+    fill: #101C3B;
+    transform: scale(1.05);
+    z-index: 2;
+    transform-origin: 68% 78%;
+}
+
+
+.cosasdep__container{
+    display: grid;
+    padding-left: calc(7% - 4px);
+    border-left: 4px solid #000;
+}
+.cosasdep__text h5:first-child{
     margin-top: 10px;
-    margin-left: 30px;
+}
+.cosasdep__text h5{
+    font-size: 1.1rem;
+    margin: 0px;
+}
+.cosasdep__text p{
+    margin-top: 5px;
 }
 
-.textoContainer button:hover{
-    cursor: pointer;
-}
-
-.destino_img{
-    width: 40%;
-    height: 300px;
-    background-image: url("../media/img/destinoImg.png");
-    background-size: contain;
-    background-size: cover;
-}
+/* SECTION MAS INFO */
 
 .section__masInfo{
     width: 100%;
@@ -204,7 +201,6 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 
 }
 
@@ -351,15 +347,16 @@ footer {
     height: 500px;
     z-index: -2;
     background-repeat: no-repeat;
+    background-size: contain;
     position:absolute;
 }
 
 .recDec1{
-    background-image: url("../media/img/recDec1.png");
-    transform: translate(-80px, 160px);
+    background-image: url("../../media/img/cirDec1.png");
+    transform: translate(0px, 160px);
 }
 .recDec2{
-    background-image: url("../media/img/recDec2.png");
+    background-image: url("../../media/img/cirDec2.png");
     transform: translateY(500px);
     justify-self: right;
     width: 100px;
@@ -402,7 +399,7 @@ footer {
         width: 50px;
         height: 50px;
         background-size: cover;
-        background-image: url("../media/img/logo.png");
+        background-image: url("../../media/img/logo.png");
     }
     .second__nav__tile{
         display: flex;
@@ -448,7 +445,7 @@ footer {
     .second__nav__icon a{
         width: 20px;
         height: 20px;
-        background-image: url("../media/img/menuIcon.png");
+        background-image: url("../../media/img/menuIcon.png");
         background-size: cover;
         
     }

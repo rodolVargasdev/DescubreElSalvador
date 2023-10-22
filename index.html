@@ -1,62 +1,225 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Descubre El Salvador</title>
 </head>
 <body>
-    <nav id="navbar">
-        <div class="container">
-            <div id="logo">Logo</div>
-            <ul>
-                <li><a href="#">Enlace 1</a></li>
-                <li><a href="#">Enlace 2</a></li>
-                <li><a href="#">Enlace 3</a></li>
+                <!-- MAIN NAVEGADOR -->
+    <nav class="main_nav">
+        <div class="container__nav">
+            
+            <div class="main__nav__title">
+                <a href=""><div id="logo"></div></a>
+                <a href=""><h2>Descubre El Salvador</h2></a>
+            </div>
+            <div class="main__nav__boton">
+                
+            </div>
+            <ul class="nav_ul">
+                <li><a href="">Lugares por visitar</a></li>
+                <li><a href="./sections/cosas-por-hacer/index.html">Cosas por hacer</a></li>
+                <li><a href="">Consejos prácticos</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="main-image">
-        <img src="media/img/principal.jpg" alt="Imagen Principal" height="700">
-    </div>
-
-    <div class="circle-images">
-        <div class="circle">
-            <img src="media/img/img1.jpg" alt="Imagen 1">
-            <div class="overlay">
-                <span>Texto 1</span>
-            </div>
-        </div>
-        <div class="circle">
-            <img src="media/img/img2.jpg" alt="Imagen 2">
-            <div class="overlay">
-                <span>Texto 2</span>
-            </div>
-        </div>
-        <div class="circle">
-            <img src="media/img/img3.jpg" alt="Imagen 3">
-            <div class="overlay">
-                <span>Texto 3</span>
-            </div>
-        </div>
-        <div class="circle">
-            <img src="media/img/img4.jpg" alt="Imagen 4">
-            <div class="overlay">
-                <span>Texto 4</span>
-            </div>
+    <!-- MENUICON -->
+    <div class="menuContainer" id="showMenu">
+        <div class="second__nav__icon">
+            <a id="showMenu"></a>
         </div>
     </div>
 
+    <!-- SECOND NAV -->
+    <header class="second__nav">
+        <div class="second__nav__tile">
+            <a href="">
+                <div id="logo2"></div>
+                <p>Descubre El Salvador</p>
+            </a>    
+        </div>
+    </header>
+
+    <!-- LATERAL NAV -->
+    <nav class="lateral__nav" id="lateralNav">
+
+        <div class="second__nav__tile">
+            <a href="">
+                <div id="logo2"></div>
+                <p>Descubre El Salvador</p>
+            </a>
+        </div>
+
+        <ul class="nav__items">
+            <li>
+                <a href="">
+                    <img src="../media/img/explorarIcon.png">
+                    <p>Lugares por visitar</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="../media/img/cosasLogo.png">
+                    <p>Cosas por hacer</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="../media/img/consejoLogo.png">
+                    <p>Consejos prácticos</p>
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    
+    <main>
+                <!-- SECCION TITLE -->
+        <section class="section__title">
+            <div class="imgContainer">
+                <!-- <div class="blackSquare"></div> -->
+                <div class="tituloContainer">
+                    <p>Tierra del surf y de los soberbios volcanes</h2>
+                    <h1>Descubre El Salvador</h1>
+                </div>
+            </div>
+        </section>
+
+
+                <!-- SECCION DESTINO -->
+        <section class="section__destino">
+            <div class="destino__contenido">
+                
+                <div class="destino__dec">
+                    <div class="textoContainer">
+                        <h3>El Salvador como destino turístico</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, libero, esse asperiores fugiat iusto ea voluptatum debitis maiores exercitationem laudantium nostrum id delectus dignissimos necessitatibus quod voluptate ex magni veniam.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, libero, esse asperiores fugiat iusto ea voluptatum debitis maiores exercitationem laudantium nostrum 
+                        </p>
+                        <a href=""><button class=""> Explorar... </button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="destino_img"></div>
+        </section>
+
+                <!-- DECORATION -->
+        <div class="decoration__container">
+            <div class="recDec1"></div>
+            <div class="recDec2"></div>
+        </div>
+
+                <!-- SECCION MÁS INFORMACIÓN -->
+        <section class="section__masInfo">
+
+            <div class="masInfo__title">
+                <h3>Conoce un poco más de nuestro país</h3>
+                <div></div>
+            </div>
+
+            <div class="cardsMasInfo__container">
+                <div class="subContainerCards">
+
+                    <div class="cardInfo">
+                        <img src="../media/img/cardImg1.jpg" alt="">
+                        <div class="cardMasInfoTexto">
+                            <h4>Café nacional</h4>
+                            <p>
+                                Caracterizado por su sabor suave y equilibrado, con notas de cacao y frutas.    
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInfo">
+                        <img src="../media/img/cardImg4.png" alt="">
+                        <div class="cardMasInfoTexto">
+                            <h4>Tierra del Surf</h4>
+                            <p>
+                                Antiguamente considerado por expertos en la materia como la reliquia escondida del surf y actualmente popularizado con Surf City.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div>
+
+                    <div class="cardInfo">
+                        <img src="../media/img/cardImg2.png" alt="">
+                        <div class="cardMasInfoTexto">
+                            <h4>Ave nacional</h4>
+                            <p>
+                                El torogoz se caracteriza por su impresionante plumaje de colores vivos y llamativos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInfo">
+                        <img src="../media/img/cardImg5.png" alt="">
+                        <div class="cardMasInfoTexto">
+                            <h4>Cultura y tradiciones</h4>
+                            <p>
+                                Sus festivales, música, danzas y arte son altamente valorados y contribuyen a la identidad única del país.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div id="cardsAdditional">
+                    
+                    <div class="cardInfo">
+                        <img src="../media/img/cardImg3.png" alt="">
+                        <div class="cardMasInfoTexto">
+                            <h4>Gastronomía</h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident et magni voluptate ad nemo aliquid inventore a error eos aut in 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cardInfo">
+                        <img src="../media/img/cardImg6.png" alt="">
+                        <div class="cardMasInfoTexto">
+                            <h4>Soberbios Volcanes</h4>
+                            <p>
+                                Con sus picos majestuosos y volcanes activos, es una característica geográfica impresionante que atraviesa el país y aporta una belleza única a su paisaje.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <div class="recDec3"></div>
     <footer>
-        <div class="container">
-            <div class="footer-column">Columna 1</div>
-            <div class="footer-column">Columna 2</div>
-            <div class="footer-column">Columna 3</div>
-        </div>
-    </footer>
 
-    <script src="js/script.js"></script>
+        <div class="footer_socialMedia">
+            <div class="whiteRec"></div>
+            <div class="icons">
+                <a href=""><img src="../media/img/facebookLogo.png" alt=""></a>
+                <a href=""><img src="../media/img/instagramLogo.png" alt=""></a>
+                <a href=""><img src="../media/img/twitterlogo.png" alt=""></a>
+                <a href=""><img src="../media/img/linkedinLogo.png" alt=""></a>
+                <a href=""><img src="../media/img/youtubeLogo.png" alt=""></a>
+                
+            </div>
+            <div class="whiteRec"></div>
+        </div>
+
+        <div class="footer__TextoContainer">
+            <p>Diseño de páginas web</p>
+            <p>©Copyright 2023</p>
+        </div>
+        
+    </footer>
+    <script src="../js/script.js"></script>
 </body>
 </html>

@@ -1,28 +1,16 @@
-const circles = document.querySelectorAll('.circle');
+const handleMenu = document.getElementById('showMenu');
+const lateralMenu = document.getElementById('lateralNav')
+let presionado = false;
 
-circles.forEach(circle => {
-    const image = circle.querySelector('img');
-    const overlay = circle.querySelector('.overlay');
+handleMenu.addEventListener("click", () => {
+    
+    if(!presionado){
+        lateralMenu.className = 'lateral__nav';
+    } 
+    else{
+        lateralMenu.className = 'lateral__nav dissapear';
+    }
+    presionado = !presionado;
 
-    circle.addEventListener('mouseenter', () => {
-        image.style.transform = 'scale(1.1)';
-        image.style.filter = 'grayscale(100%)';
-        overlay.style.display = 'block';
-    });
-
-    circle.addEventListener('mouseleave', () => {
-        image.style.transform = 'scale(1)';
-        image.style.filter = 'grayscale(0)';
-        overlay.style.display = 'none';
-    });
-});
-
-const navbar = document.getElementById('navbar');
-
-navbar.addEventListener('mouseenter', () => {
-    navbar.style.backgroundColor = '#739739';
-});
-
-navbar.addEventListener('mouseleave', () => {
-    navbar.style.backgroundColor = 'transparent';
+    console.log(lateralMenu.classList);
 });

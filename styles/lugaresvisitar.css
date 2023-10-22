@@ -1,0 +1,267 @@
+.mainLugarvisitar{
+height: 840px;
+
+}
+
+
+/*CSS RUTA ARQUEOLOGICA*/
+.imgTazumal{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.containerRutaArq{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.imgTazumal:hover {
+    filter: grayscale(50%);
+}
+
+.infoTazumal {
+    position: absolute;
+    background: #101C3B;
+    color: white;
+    padding: 10px;
+    top: 170px;
+    right: 100px;
+    border-radius: 20px;
+    border-top: 15px solid #739739; 
+    border-right: 10px solid #E97023; 
+    border-bottom: 15px solid #EDC9AC;
+    border-left: 10px solid #10C4C2; 
+    width: 35%;
+    max-height: 100%;
+}
+
+/*CSS RUTA VOLCANICA*/ 
+.imgVolcanes{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.containerRutaVolcanes{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.imgVolcanes:hover {
+    filter: grayscale(50%);
+}
+
+.infoVolcanes {
+    position: absolute;
+    background: #101C3B;
+    color: white;
+    padding: 10px;
+    top: 170px;
+    right: 100px;
+    border-radius: 20px;
+    border-top: 15px solid #739739; 
+    border-right: 10px solid #E97023; 
+    border-bottom: 15px solid #EDC9AC;
+    border-left: 10px solid #10C4C2; 
+    width: 35%;
+    max-height: 100%;
+}
+
+.masInfoRutaVolcanica{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*CSS SURF CITY*/
+.imgSunsetPark{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.containerSurfCity{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.imgSunsetPark:hover {
+    filter: grayscale(50%);
+}
+
+.infoSurfCity {
+    position: absolute;
+    background: #101C3B;
+    color: white;
+    padding: 10px;
+    top: 125px;
+    right: 100px;
+    border-radius: 20px;
+    border-top: 15px solid #739739; 
+    border-right: 10px solid #E97023; 
+    border-bottom: 15px solid #EDC9AC;
+    border-left: 10px solid #10C4C2; 
+    width: 35%;
+    max-height: 100%;
+}
+
+.masInfoSurfCity{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.vermasSurfCity{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+/*CSS CENTRO HISTORICO*/
+.imgCentroHistorico{
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+}
+
+.containerCentroHistorico{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.imgCentroHistorico:hover {
+    filter: grayscale(50%);
+}
+
+.infoCentroHistorico {
+    position: absolute;
+    background: #101C3B;
+    color: white;
+    padding: 10px;
+    top: 115px;
+    right: 100px;
+    border-radius: 20px;
+    border-top: 15px solid #739739; 
+    border-right: 10px solid #E97023; 
+    border-bottom: 15px solid #EDC9AC;
+    border-left: 10px solid #10C4C2; 
+    width: 35%;
+    max-height: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.verMasButton {
+    background-color: #B4BA7B;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 10%;
+    &:hover {
+        background-color: #ff7557;
+    }
+}
+
+.mainLugarvisitar{
+    position: relative;
+}
+
+.imgLugar{
+    width: 100%;
+    height: 840px;
+}
+
+.infoMain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.411);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.titulo1{
+    margin: 0;
+    margin-bottom: 10px; 
+}
+
+.parrafo1{
+    margin: 0;
+}
+
+.selectorRuta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.selectorRuta img {
+    margin-bottom: 10px;
+    transition: transform .2s;
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+}
+
+.selectorRuta img:hover {
+    transform: scale(1.2);
+}
+
+
+.masInfo{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.vermasRuta{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.gallery img {
+    margin-left: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+
+
+
