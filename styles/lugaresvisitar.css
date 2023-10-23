@@ -127,12 +127,15 @@
 /* Estilos para la sección "masInformacion" */
 .masInformacion {
     text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .section-title {
-    font-size: 32px;
+    font-size: 38px;
     margin-top: 10px;
     margin-bottom: 0px;
+    margin-top: 10px;
   }
 
   .section-line {
