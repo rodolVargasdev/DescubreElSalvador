@@ -3,16 +3,23 @@ body{
 }
 
 
+.imgContainer-consejos {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../media/img/consejos/headerconsejos.png");
+}
+
 .seccion_introduccion {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #b4ba7b;
+  background: rgb(221,231,206);
+background: linear-gradient(0deg, rgba(221,231,206,1) 21%, rgba(180,186,123,1) 100%);
   border: 1px solid #b4ba7b;
   padding: 20px;
-  position: relative;
+  position:static;
   min-height: 50vh;
-  position: relative;
 }
 
 .linea-izquierda,
@@ -21,7 +28,7 @@ body{
   width: 1%;
   min-width: 1%;
   height: 40%;
-  position: absolute;
+  display: none;
 }
 
 .linea-izquierda {
@@ -72,8 +79,8 @@ body{
 
 .imagen {
   max-width: 40%; 
-  margin-left: 0;
   margin-top: 20px;
+  margin-left: 50px;
 }
 
 /* Estilos de la sección de los recuadros con la información útil */
@@ -93,7 +100,7 @@ body{
   width: 40%;
   height: 5px;
   margin: 5px auto;
-  background-color:  #EDC9AC;
+  background-color:  #101C3B;
   border: 0px;
 }
 
@@ -288,4 +295,71 @@ a{
   margin-bottom: 10px;
   font-size: 16px;
   border: 1px solid white;
+}
+
+/* Media queries para ajustar el diseño en pantallas más pequeñas del formulario */
+@media (max-width: 1039px) {
+  .contactoSection{
+    width: 100%;
+    height: 400px;
+    }
+    .contactenos {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      margin: 20px auto;
+    }
+  
+    .info-contactos {
+      width: 100%;
+    }
+    img.iconos-formulario{
+      width: 20px;
+      height: 20px;
+    }
+    .formulario {
+      gap: 20px;
+    }
+    
+    .item2,.item3,.item5,.item6{
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+
+  @media (max-width: 436px) {
+    .contactoSection{
+      width: 100%;
+      height: 300px;
+      }
+    .contactenos {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      margin: 20px auto;
+    }
+  
+    .info-contactos {
+      width: 100%;
+    }
+  
+    .formulario {
+      gap: 20px;
+    }
+
+    .item2,.item3,.item5,.item6{
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    h5{
+      font-size: 15px;
+      color: #FFFFFF;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    img.iconos-formulario{
+      width: 15px;
+      height: 15px;
+    }
+  }
 }

@@ -93,7 +93,7 @@ main{
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-image: url("../../media/img/cosasBackground.png");
+    background-image: url("../../media/img/cosasBack.jpg");
 }
 
 
@@ -474,7 +474,7 @@ footer {
         grid-template-columns: 85%;
         display: grid;
         align-items: center;
-        row-gap: 5px;
+        row-gap: 10px;
     }
     .nav__items li{
         width: 100%;
@@ -486,14 +486,14 @@ footer {
     }
     .nav__items li:first-child
     {
-        border-top: 1px solid rgb(231, 231, 231)
+        border-top: 1px solid rgb(231, 231, 231);
+        margin-top: 10px;
     }
     .nav__items li a{
         width: 100%;
         height: 100%;
         text-decoration: none;
         text-align: right;
-        padding-top: 30px;
         padding-left: 10px;
         font-weight: 400;
         color: #f1f1f1;
@@ -557,6 +557,12 @@ footer {
         margin: 0;
         display: grid;
         justify-content: center;
+    }
+    
+    .section__mapa_container
+    {
+       grid-template-rows: 45% 50%;
+       grid-template-columns: 100%;
     }
     .section__mapa_container
     {
