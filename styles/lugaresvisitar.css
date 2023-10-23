@@ -1,48 +1,75 @@
-.mainLugarvisitar{
-height: 600px;
-}
-
-.imgLugar{
+/*IMG Header*/
+.imgContainer-lugares {
     width: 100%;
-    height: 600px;
-}
+    height: 100%;
+    background-size: cover;
+    background-image: url("../media/img/lugares/header.png");
+  }
+
 
 /*CSS RUTA ARQUEOLOGICA*/
-.imgTazumal{
-    width: 100%;
-    max-height: 550px;
-    object-fit: cover;
-    display: flex;
+.containerRutaArq {
+  display: flex;
 }
 
-.containerRutaArq{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+.destino__decLugares {
+  flex: 1; /* El contenido tomará todo el espacio disponible en la columna derecha */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url("../media/img/indexRec.png");
 }
 
-.imgTazumal:hover {
-    filter: grayscale(50%);
+.imgTazumal {
+  width: 50%; /* Ancho reducido para dejar espacio para el contenido en la columna izquierda */
+  max-height: 550px;
+  object-fit: cover;
+  display: flex;
 }
 
-.infoTazumal {
-    position: absolute;
-    background: #101C3B;
-    color: white;
-    padding: 10px;
-    top: 170px;
-    right: 100px;
-    border-radius: 20px;
-    border-top: 15px solid #739739; 
-    border-right: 10px solid #E97023; 
-    border-bottom: 15px solid #EDC9AC;
-    border-left: 10px solid #10C4C2; 
-    width: 35%;
-    max-height: 100%;
+.textoContainerLugares {
+  width: 92%;
+  height: 90%;
+  background-color: #101C3B;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: left;
+  border-radius: 15px;
+}
+
+.textoContainerLugares h3 {
+  font-size: 2.0em;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 40px 0 0 30px;
+}
+
+.textoContainerLugares p {
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 300;
+  padding: 10px 70px 0 30px;
+}
+
+.textoContainerLugares button {
+  font-size: 1em;
+  letter-spacing: 1px;
+  width: auto;
+  height: auto;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #E97023;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.textoContainerLugares button:hover {
+  cursor: pointer;
 }
 
 /*CSS RUTA VOLCANICA*/ 
@@ -199,55 +226,57 @@ p{
     }
 }
 
-.mainLugarvisitar{
-    position: relative;
-}
 
-.infoMain {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.411);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-}
 
-.titulo1{
-    margin: 0;
-    margin-bottom: 10px; 
-}
 
-.parrafo1{
-    margin: 0;
-}
 
 .selectorRuta {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
     margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 50px;
 }
 
-.selectorRuta img {
-    margin-bottom: 10px;
-    transition: transform .2s;
+.imagenSelector {
+    position: relative;
+}
+
+.imagenSelector img {
+    transition: transform 0.2s, filter 0.2s;
     border-radius: 100%;
     height: 250px;
     width: 250px;
 }
 
-.selectorRuta img:hover {
-    transform: scale(1.2);
+.imagenSelector .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
 }
+
+.imagenSelector:hover img {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.imagenSelector:hover .overlay {
+    opacity: 1;
+}
+
+
+
+
+
 
 #masRutaArq{
     text-align: center;
