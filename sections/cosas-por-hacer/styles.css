@@ -562,6 +562,7 @@ footer {
     .section__mapa_container
     {
        grid-template-rows: 45% 50%;
+       grid-template-columns: 100%;
     }
     .recDec3{
         display: none;
