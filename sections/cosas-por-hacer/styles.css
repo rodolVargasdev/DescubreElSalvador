@@ -558,7 +558,11 @@ footer {
         display: grid;
         justify-content: center;
     }
-
+    
+    .section__mapa_container
+    {
+       grid-template-rows: 45% 50%;
+    }
     .recDec3{
         display: none;
     }
