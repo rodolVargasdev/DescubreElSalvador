@@ -383,4 +383,12 @@ font-weight: 900;
     justify-content: space-around;
     border-radius: 20px;
     }
+
+    .iconos-formulario{
+      height: 30px;
+      width: 30px;
+    }
+    .contendores-contactos a{
+      font-size: 15px;
+    }
   }
