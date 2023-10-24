@@ -225,6 +225,7 @@ background: linear-gradient(0deg, rgba(221,231,206,1) 21%, rgba(180,186,123,1) 1
 .titulos-form{
   font-size: 20px;
   color: #FAFAFA;
+  align-items: center;
 }
 
 .contendores-contactos{
