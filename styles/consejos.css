@@ -166,9 +166,7 @@ background: linear-gradient(0deg, rgba(221,231,206,1) 21%, rgba(180,186,123,1) 1
   }
 
   .imagen {
-    max-width: 40%;
-    margin-left: 0;
-    margin-top: 20px;
+    display: none;
   }
 
   .contactoSection{
@@ -324,6 +322,11 @@ font-weight: 900;
   width: 60%;
 }
 
+
+.imagen {
+  display: none;
+}
+
 .contactos{
   display: flex;
   flex-direction: column;
@@ -358,6 +361,11 @@ font-weight: 900;
     color: #FAFAFA;
     text-align: center;
   }
+
+  .imagen {
+    display: none;
+  }
+
   .content-formulario{
     flex-direction: column;
     flex-wrap: nowrap;
