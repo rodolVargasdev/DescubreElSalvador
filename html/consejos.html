@@ -175,90 +175,32 @@
         </div>
       </section>
       <!-- Aquí va el formulario-->
-      <div class="contactoSection">
-        <h2 class="titulo-contactenos">Contáctenos</h2>
-        <section class="contactenos">
-          <div class="info-contactos">
-            <div class="item1 items">
-              <h5>Dirección general de migración y extranjería</h5>
-            </div>
-            <div class="item2 items">
-              <img
-                class="iconos-formulario"
-                src="/media/img/ico/iconotelefono.png"
-                alt=""
-              />
-              <div><a href="#">+503 2213-7700</a></div>
-            </div>
-            <div class="item3 items">
-              <img
-                class="iconos-formulario"
-                src="/media/img/ico/iconointernet.png"
-                alt=""
-              />
-              <div><a href="#">migracion.gob.sv</a></div>
-            </div>
-            <div class="item4 items"><h5>Ministerio de Turismo</h5></div>
-            <div class="item5 items">
-              <img
-                class="iconos-formulario"
-                src="/media/img/ico/iconotelefono.png"
-                alt=""
-              />
-              <div><a href="#">+503 2241-3200</a></div>
-            </div>
-            <div class="item6 items">
-              <img
-                class="iconos-formulario"
-                src="/media/img/ico/iconointernet.png"
-                alt=""
-              />
-              <div><a href="#">mitur.gob.sv</a></div>
-            </div>
-          </div>
-          <div class="contenedor-formulario">
-            <form class="formulario" action="">
-              <input
-                class="inputs input1"
-                name="nombre"
-                id="nombre"
-                type="text"
-                placeholder="Ingrese su nombre"
-                required
-              />
-  
-              <input
-                class="inputs input2"
-                name="email"
-                id="email"
-                type="mail"
-                placeholder="Ingrese su email"
-                required
-              />
-  
-              <select class="inputs input3" name="asunto" id="asunto" required>
-                <option value="#">Asunto</option>
-                <option value="valor1">Guía Turístico</option>
-                <option value="valor2">Traductor</option>
-                <option value="valor3">Servicio de Transporte</option>
-                <option value="valor3">Servicio varios</option>
+     <h3 class="Titulo-contactos">Contactos</h3>
+       <section class="content-formulario">
+        <article class="contactos">
+          <h4 class="titulos-form">Dirección general de migración y extranjería</h4>
+          <div class="contendores-contactos"><img class="iconos-formulario" src="../media/img/ico/iconotelefono.png" alt="icono telefono"><a href="#">+503 2213-7700</a></div>
+          <div class="contendores-contactos"><img class="iconos-formulario" src="../media/img/ico/iconointernet.png" alt="icono internet"><a href="#">migracion.gob.sv</a></div>
+          <h4 class="titulos-form">Ministerio de Turismo</h4>
+          <div class="contendores-contactos"><img class="iconos-formulario" src="../media/img/ico/iconotelefono.png" alt="icono telefono"><a href="#">+503 2241-3200</a></div>
+          <div class="contendores-contactos"><img class="iconos-formulario" src="../media/img/ico/iconointernet.png" alt="icono internet"><a href="#">mitur.gob.sv</a></div>
+        </article>
+        <article class="formulario">
+          <form class="formulario-content" action="">
+            <input class="inputs" type="text" placeholder="Ingrese su nombre:" name="nombre" id="nombre" required>
+            <input class="inputs" type="mail" placeholder="Ingrese su email:" name="email" id="email" required>
+              <select class="inputs" name="asunto" placeholder="Asunto" id="asunto" required>
+                <option value="" disabled selected class="asuntos">Asunto</option>
+                <option value="1" class="asuntos">Guía Turístico</option>
+                <option value="2" class="asuntos">Traductor</option>
+                <option value="3" class="asuntos">Servicio de Transporte</option>
+                <option value="4" class="asuntos">Otros Servicios</option>
               </select>
-  
-              <textarea
-                class="inputs input4"
-                name="mensaje"
-                id="mensaje"
-                cols="20"
-                rows="10"
-                placeholder="Escriba un mensaje"
-                required
-              ></textarea>
-              <input class="inputs input5" type="submit" value="Enviar" />
-            </form>
-          </div>
-        </section>
-      </div>
-      
+            <textarea class="inputMensaje" name="mensaje" id="mensaje" cols="25" rows="10" placeholder="Mensaje"></textarea></div>
+            <div class="contenedor-btnenviar"><input  class="btn-enviar" type="submit" value="ENVIAR"></div>
+          </form>
+        </article>
+       </section>
     </main>
     <footer>
 

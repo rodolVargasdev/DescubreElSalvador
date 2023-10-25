@@ -58,6 +58,7 @@
 /*CSS Contenedor Información*/
 .containerInformacionRuta{
     display: flex;
+    height: max-content;
   }
   
   .destino__decLugares {
@@ -98,8 +99,10 @@
   .textoContainerLugares p {
     font-size: 1em;
     letter-spacing: 1px;
-    font-weight: 300;
-    padding: 10px 70px 0 30px;
+    font-weight: 400;
+    max-width: 60%; 
+    line-height: 1.5;
+    padding: 5px 70px 5px 30px;
   }
   
   .textoContainerLugares button {
