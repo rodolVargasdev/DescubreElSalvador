@@ -60,22 +60,26 @@
 
 /*CSS Contenedor Información*/
 .containerInformacionRuta{
-    display: flex;
-    height: max-content;
-  }
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}   
   
   .destino__decLugares {
     flex: 1; /* El contenido tomará todo el espacio disponible en la columna derecha */
     display: flex;
     align-items: center;
+    height: 100%;
     justify-content: center;
     background-size: cover;
     background-image: url("../media/img/indexRec.png");
+    border-radius: 15px;
   }
   
   .imgInformacion{
-      width: 50%; /* Ancho reducido para dejar espacio para el contenido en la columna izquierda */
-      max-height: 550px;
+      width: 100%; /* Ancho reducido para dejar espacio para el contenido en la columna izquierda */
+      height: 90%;
       object-fit: cover;
       display: flex;
     }
@@ -85,11 +89,14 @@
     height: 90%;
     background-color: #101C3B;
     color: #fff;
-    display: flex;
+    display: grid;
     align-items: flex-start;
     flex-direction: column;
     justify-content: left;
     border-radius: 15px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    margin: 20px 0;
   }
   
   .textoContainerLugares h3 {
@@ -102,8 +109,8 @@
   .textoContainerLugares p {
     font-size: 1em;
     letter-spacing: 1px;
-    font-weight: 400;
-    max-width: 70%; 
+    font-weight: 300;
+    max-width: 80%; 
     line-height: 1.5;
     padding: 5px 70px 5px 30px;
   }
@@ -118,17 +125,13 @@
     background-color: #E97023;
     font-weight: 500;
     color: #fff;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin: 50px 40px;
   }
   
   .textoContainerLugares button:hover {
     cursor: pointer;
   }
 
-
-
- 
 
 /* Estilos para la sección "masInformacion" */
 .masInformacion {
@@ -150,7 +153,7 @@
     margin: 5px auto;
     margin-bottom: 15px;
     background-color:  #101C3B;
-    border: 0px;
+    margin-bottom: 50px;
   }
   
 
@@ -169,6 +172,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0 20px
 }
 
 .image {
@@ -184,6 +188,7 @@
     object-position: center center;
     background-color: #fff;
     transition: filter 0.3s;
+    margin-left: 3px;
 }
 
 
